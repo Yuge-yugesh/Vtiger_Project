@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-28T13:23:42 IST" name="Default suite" finished-at="2024-11-28T13:24:34 IST" duration-ms="51574">
+    <groups>
+    </groups>
+    <test started-at="2024-11-28T13:23:42 IST" name="Default test" finished-at="2024-11-28T13:24:34 IST" duration-ms="51574">
+      <class name="com.CRM.organization.TC_VC_005_Test">
+        <test-method is-config="true" signature="reportConfiguration()[pri:0, instance:com.CRM.organization.TC_VC_005_Test@19e4653c]" started-at="2024-11-28T13:23:42 IST" name="reportConfiguration" finished-at="2024-11-28T13:23:42 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfiguration -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.CRM.organization.TC_VC_005_Test@19e4653c]" started-at="2024-11-28T13:23:42 IST" name="launchBrowser" finished-at="2024-11-28T13:23:54 IST" duration-ms="11989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.CRM.organization.TC_VC_005_Test@19e4653c]" started-at="2024-11-28T13:23:54 IST" name="login" finished-at="2024-11-28T13:24:01 IST" duration-ms="6658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrganizationWithIndustryDropDown()[pri:0, instance:com.CRM.organization.TC_VC_005_Test@19e4653c]" started-at="2024-11-28T13:24:01 IST" name="createOrganizationWithIndustryDropDown" finished-at="2024-11-28T13:24:31 IST" duration-ms="29958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithIndustryDropDown -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.CRM.organization.TC_VC_005_Test@19e4653c]" started-at="2024-11-28T13:24:31 IST" name="logout" finished-at="2024-11-28T13:24:34 IST" duration-ms="2884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:com.CRM.organization.TC_VC_005_Test@19e4653c]" started-at="2024-11-28T13:24:34 IST" name="reportBackup" finished-at="2024-11-28T13:24:35 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- com.CRM.organization.TC_VC_005_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
